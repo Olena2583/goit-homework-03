@@ -11,49 +11,64 @@
       rel="stylesheet"
     />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header index -->
+    <section class="header-index">
+      <div class="container">
+        <header class="header">
+          <nav class="novigation">
+            <a class="header-logo link" href="./index.html">
+              Web<span class="logo-studio">Studio</span>
+            </a>
+            <ul class="header-menu list">
+              <li class="header-menu-item">
+                <a class="header-link link" href="./index.html">Studio</a>
+              </li>
+              <li class="header-menu-item">
+                <a class="header-link link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="header-menu-item">
+                <a class="header-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="address">
+            <ul class="header-lists list">
+              <li>
+                <a class="list-link link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="list-link link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </header>
+      </div>
+    </section>
 
-    <header class="header">
-      <nav class="novigation">
-        <a class="header-logo link" href="./index.html">
-          Web<span class="logo-studio">Studio</span>
-        </a>
-        <ul class="header-menu list">
-          <li class="header-menu-item">
-            <a class="header-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="header-menu-item">
-            <a class="header-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="header-menu-item">
-            <a class="header-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="header-lists list">
-          <li>
-            <a class="list-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="list-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
-    </header>
     <main class="main">
       <!-- sectione one index -->
 
       <section class="section-one">
-        <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-btn link">Order Service</button>
+        <div class="container">
+          <h1 class="main-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="hero-btn link">Order Service</button>
+        </div>
       </section>
 
       <!-- section two index-->
