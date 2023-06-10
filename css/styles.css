@@ -70,6 +70,7 @@ a {
 
 img {
   display: block;
+  min-width: 100%;
 }
 
 /* ------header index--- */
@@ -138,8 +139,7 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
 }
-.container {
-}
+
 .main-title {
   font-style: normal;
   font-weight: 700;
@@ -180,13 +180,23 @@ img {
 }
 
 /*------------- section two index ---------*/
-
+.main-section-two {
+  padding: 120px 0;
+}
+.section-two-list {
+  display: flex;
+  gap: 24px;
+}
+.section-two-link {
+  width: 264px;
+}
 .section-two-target {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-dark-navy-blue);
+  margin-bottom: 8px;
 }
 .section-two-text {
   font-weight: 400;
@@ -201,6 +211,9 @@ img {
 
 /* ---------- section three index--------- */
 
+.main-section-three {
+  padding-bottom: 120px;
+}
 .section-three-target {
   text-align: center;
   font-style: normal;
@@ -210,9 +223,14 @@ img {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--color-dark-navy-blue);
+  padding-bottom: 76px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .section-three-list {
   background-color: var(--color-white-background-white);
+  display: flex;
+  gap: 24px;
 }
 
 /*---------- section foure index--------- */
@@ -222,6 +240,9 @@ img {
 }
 .main-section-foure {
   background-color: var(--color-light-cloud);
+  padding-bottom: 120px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .section-foure-target {
@@ -232,14 +253,24 @@ img {
   text-transform: capitalize;
   color: var(--color-dark-navy-blue);
   background-color: var(--color-light-cloud);
+  padding-bottom: 76px;
+}
+.section-foure-list {
+  display: flex;
+  gap: 24px;
 }
 
+.section-foure-img {
+  padding-bottom: 8px;
+}
 .section-foure-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-dark-navy-blue);
+  padding-bottom: 8px;
+  text-align: center;
 }
 .section-foure-text {
   font-weight: 400;
@@ -247,12 +278,22 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text-slate);
+  text-align: center;
 }
 
 /*------------- footer------------- */
 
 .footer {
   background: var(--color-dark-navy-blue);
+  width: 1470px;
+  height: 312px;
+  display: block;
+  margin: 0 auto;
+  padding: 100px 1020px 100px 156px;
+}
+.logo-footer {
+  width: 264px;
+  height: 112px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -263,6 +304,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-primary-rand-iris);
+  padding-bottom: 16px;
 }
 .logo {
   color: var(--color-light-cloud);
