@@ -17,51 +17,12 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-/* --------------header----------------  */
+/*-- --style----- */
 
-.container {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  width: 1158px;
-  padding: 0 15px;
+.list {
+  list-style: none;
 }
 
-.header {
-  border-bottom: 1px solid var(--color-accent-cornflower);
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-.header-menu {
-  display: flex;
-  gap: 40px;
-}
-
-.novigation {
-  flex-grow: 1;
-  display: flex;
-  gap: 40px;
-  display: flex;
-  align-items: center;
-}
-
-.header-logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--color-primary-rand-iris);
-  margin-right: 76px;
-}
-.logo-studio {
-  color: var(--color-dark-navy-blue);
-  margin-right: 76px;
-}
 .link {
   text-decoration: none;
 }
@@ -91,16 +52,54 @@ img {
   max-width: 100%;
 }
 
-.list {
-  list-style: none;
+/* --------------header----------------  */
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  width: 1158px;
+  padding: 0 15px;
 }
 
-.header-lists {
+.header {
+  border-bottom: 1px solid var(--color-accent-cornflower);
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.novigation {
+  flex-grow: 1;
+  display: flex;
+  gap: 40px;
   display: flex;
   align-items: center;
-  gap: 40px;
-  justify-content: space-between;
 }
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-primary-rand-iris);
+  margin-right: 76px;
+}
+
+.logo-studio {
+  color: var(--color-dark-navy-blue);
+  margin-right: 76px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
 .header-link {
   font-style: normal;
   font-weight: 500;
@@ -111,21 +110,33 @@ img {
   padding: 24px 0;
 }
 
-.header-menu-item .header-link:focus {
-  color: var(--color-pressed-state-ocean);
-}
-.header-menu-item .header-link:hover {
-  color: var(--color-pressed-state-ocean);
-}
 .address {
   font-style: normal;
 }
+
+.header-lists {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+}
+
 .list-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text-slate);
+}
+
+/* -------focus hover header-------- */
+
+.header-menu-item .header-link:focus {
+  color: var(--color-pressed-state-ocean);
+}
+
+.header-menu-item .header-link:hover {
+  color: var(--color-pressed-state-ocean);
 }
 
 .header-lists .list-link:hover,
@@ -184,13 +195,15 @@ img {
 }
 
 /*------------- section two index ---------*/
-.visually-hidden {
-  visibility: hidden;
-}
 
 .main-section-two {
   padding: 120px 0;
 }
+
+.visually-hidden {
+  visibility: hidden;
+}
+
 .section-two-list {
   display: flex;
   gap: 24px;
@@ -212,9 +225,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text-slate);
-}
-.list {
-  list-style: none;
 }
 
 /* ---------- section three index--------- */
@@ -243,10 +253,6 @@ img {
 
 /*---------- section foure index--------- */
 
-.foure-img {
-  background-color: var(--color-white-background-white);
-  border-radius: 0px 0px 4px 4px;
-}
 .main-section-foure {
   background-color: var(--color-light-cloud);
   margin-right: auto;
@@ -270,8 +276,16 @@ img {
   gap: 24px;
 }
 
+.foure-img {
+  background-color: var(--color-white-background-white);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .section-foure-img {
   padding-bottom: 8px;
+}
+.worker {
+  padding: 32px 16px;
 }
 .section-foure-title {
   font-weight: 500;
@@ -301,10 +315,7 @@ img {
   margin: 0 auto;
   padding: 100px 0;
 }
-.logo-footer {
-  width: 264px;
-  height: 112px;
-}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -317,6 +328,12 @@ img {
   margin-bottom: 16px;
   display: inline-block;
 }
+
+.logo-footer {
+  width: 264px;
+  height: 112px;
+}
+
 .logo {
   color: var(--color-light-cloud);
 }
