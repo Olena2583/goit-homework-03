@@ -59,7 +59,6 @@ img {
 .header {
   border-bottom: 1px solid var(--color-accent-cornflower);
   display: flex;
-  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
