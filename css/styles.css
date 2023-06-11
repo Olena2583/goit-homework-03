@@ -333,12 +333,12 @@ img {
   text-transform: uppercase;
   color: var(--color-primary-rand-iris);
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-footer {
   width: 264px;
   height: 112px;
-  display: inline-block;
 }
 
 .logo {
