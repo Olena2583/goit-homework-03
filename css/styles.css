@@ -365,14 +365,6 @@ img {
   background-color: var(--color-pressed-state-ocean);
 }
 
-.main-name {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--color-dark-navy-blue);
-}
 .section-photo-list p {
   font-style: normal;
   font-weight: 400;
@@ -384,6 +376,24 @@ img {
   flex-wrap: wrap;
   display: flex;
 }
+
+.main-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark-navy-blue);
+  flex: none;
+}
+
 .photo {
   width: calc((100%-2 * 24px) / 3);
+}
+.main-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-slate);
+  flex: none;
 }
