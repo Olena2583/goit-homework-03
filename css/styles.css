@@ -354,10 +354,14 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .menu-target {
   border: 1px solid var(--color-accent-cornflower);
+  border-radius: 4px;
+  padding-top: 96px;
+  padding-bottom: 120px;
   border-radius: 4px;
 }
 
@@ -372,6 +376,8 @@ img {
   color: var(--color-white-background-white);
   color: var(--color-primary-rand-iris);
   background-color: var(--color-light-cloud);
+  padding: 12px 24px;
+  border: 1px solid var(--color-accent-cornflower);
 }
 
 .section-photo-list {
@@ -409,9 +415,11 @@ img {
 /* ---------hover focus portfolio------------- */
 .menu-target .item:hover {
   background-color: var(--color-pressed-state-ocean);
+  border: 1px solid transparent;
 }
 .menu-target .item:focus {
   background-color: var(--color-pressed-state-ocean);
+  border: 1px solid transparent;
 }
 .section-menu .item:hover,
 .item:focus {
