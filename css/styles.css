@@ -91,6 +91,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   display: flex;
+  align-items: baseline;
 }
 
 .header-lists {
@@ -344,6 +345,10 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
+}
+
+.menu-target {
+  border: 1px solid var(--color-accent-cornflower);
   border-radius: 4px;
 }
 .item {
@@ -365,20 +370,22 @@ img {
   background-color: var(--color-pressed-state-ocean);
 }
 
-.section-photo-list p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-text-slate);
-  border: 1px solid var(--color-accent-cornflower);
+.container-photo {
+  width: 1158px;
+  margin-right: 15px;
+  margin-left: 15px;
+  align-items: center;
+}
+.section-photo-list {
   display: flex;
   flex-wrap: wrap;
+  text-align: start;
 }
 
 .photo {
   width: calc((100% - 2 * 24px) / 3);
+  border: 1px solid var(--color-accent-cornflower);
+  margin-bottom: 48px;
 }
 
 .main-name {
@@ -388,11 +395,15 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-dark-navy-blue);
+  padding-top: 32px;
+  margin-bottom: 8px;
 }
 
 .main-text {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text-slate);
+  padding-bottom: 32px;
 }
