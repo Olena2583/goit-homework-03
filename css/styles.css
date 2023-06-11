@@ -21,10 +21,10 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
+  display: flex;
+  width: 1158px;
+  padding: 0 15px;
 }
 
 .header {
@@ -40,11 +40,11 @@ body {
 }
 
 .novigation {
-  display: flex;
-  align-items: center;
   flex-grow: 1;
   display: flex;
   gap: 40px;
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -56,6 +56,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-primary-rand-iris);
+  margin-right: 76px;
 }
 .logo-studio {
   color: var(--color-dark-navy-blue);
