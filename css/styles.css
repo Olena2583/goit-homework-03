@@ -154,7 +154,7 @@ img {
   margin-right: auto;
   margin-bottom: 48px;
   align-items: center;
-  width: 496px;
+  max-width: 496px;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -171,8 +171,9 @@ img {
   border-radius: 4px;
   display: block;
   min-width: 169px;
-  height: 59px;
+  height: 56px;
   align-items: center;
+  border: none;
 }
 
 .section-one .hero-btn:hover,
