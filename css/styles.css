@@ -56,6 +56,13 @@ img {
 }
 
 /* --------------header----------------  */
+.header {
+  border-bottom: 1px solid var(--color-accent-cornflower);
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
 .container {
   width: 100%;
@@ -63,14 +70,7 @@ img {
   display: flex;
   width: 1158px;
   padding: 0 15px;
-}
-
-.header {
-  border-bottom: 1px solid var(--color-accent-cornflower);
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .novigation {
