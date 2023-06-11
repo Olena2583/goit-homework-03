@@ -51,6 +51,9 @@ img {
   display: block;
   max-width: 100%;
 }
+.visually-hidden {
+  visibility: hidden;
+}
 
 /* --------------header----------------  */
 
@@ -110,7 +113,7 @@ img {
   padding: 24px 0;
 }
 
-.address {
+.header-address {
   font-style: normal;
 }
 
@@ -198,10 +201,6 @@ img {
 
 .main-section-two {
   padding: 120px 0;
-}
-
-.visually-hidden {
-  visibility: hidden;
 }
 
 .section-two-list {
@@ -352,22 +351,7 @@ img {
   padding: 120px 0;
   text-align: center;
 }
-.container-btn {
-  margin-bottom: 72px;
-}
 
-.link {
-  text-decoration: none;
-}
-
-.header-address {
-  font-style: normal;
-}
-.section-menu .item:hover,
-.item:focus {
-  background: var(--color-dark-navy-blue);
-  color: var(--color-white-background-white);
-}
 .section-menu {
   display: flex;
   gap: 24px;
@@ -378,6 +362,7 @@ img {
   border: 1px solid var(--color-accent-cornflower);
   border-radius: 4px;
 }
+
 .item {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -389,12 +374,6 @@ img {
   color: var(--color-white-background-white);
   color: var(--color-primary-rand-iris);
   background-color: var(--color-light-cloud);
-}
-.menu-target .item:hover {
-  background-color: var(--color-pressed-state-ocean);
-}
-.menu-target .item:focus {
-  background-color: var(--color-pressed-state-ocean);
 }
 
 .section-photo-list {
@@ -427,4 +406,17 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-text-slate);
   padding-bottom: 32px;
+}
+
+/* ---------hover focus portfolio------------- */
+.menu-target .item:hover {
+  background-color: var(--color-pressed-state-ocean);
+}
+.menu-target .item:focus {
+  background-color: var(--color-pressed-state-ocean);
+}
+.section-menu .item:hover,
+.item:focus {
+  background: var(--color-dark-navy-blue);
+  color: var(--color-white-background-white);
 }
