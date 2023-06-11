@@ -346,8 +346,9 @@ img {
 
 /*---------- section porfolio--------- */
 .section {
-  padding: 120px 0;
   text-align: center;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .section-menu {
