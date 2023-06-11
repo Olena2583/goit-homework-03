@@ -295,7 +295,7 @@ img {
   height: 312px;
   display: block;
   margin: 0 auto;
-  padding: 100px 1020px 100px 156px;
+  padding: 100px 0;
 }
 .logo-footer {
   width: 264px;
@@ -310,7 +310,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-primary-rand-iris);
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .logo {
   color: var(--color-light-cloud);
