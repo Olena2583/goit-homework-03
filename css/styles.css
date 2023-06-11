@@ -245,12 +245,13 @@ img {
 
 .foure-img {
   background-color: var(--color-white-background-white);
+  border-radius: 0px 0px 4px 4px;
 }
 .main-section-foure {
   background-color: var(--color-light-cloud);
-  padding-bottom: 120px;
   margin-right: auto;
   margin-left: auto;
+  padding: 120px 0;
 }
 
 .section-foure-target {
@@ -262,6 +263,7 @@ img {
   color: var(--color-dark-navy-blue);
   background-color: var(--color-light-cloud);
   padding-bottom: 76px;
+  margin-bottom: 72px;
 }
 .section-foure-list {
   display: flex;
