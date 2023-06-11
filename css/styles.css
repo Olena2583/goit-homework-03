@@ -228,7 +228,7 @@ img {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--color-dark-navy-blue);
-  padding-bottom: 76px;
+  margin-bottom: 76px;
   margin-right: auto;
   margin-left: auto;
 }
