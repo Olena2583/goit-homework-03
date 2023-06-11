@@ -373,8 +373,11 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-text-slate);
   border: 1px solid var(--color-accent-cornflower);
-  flex-wrap: wrap;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
   width: calc((100% - 2 * 24px) / 3);
 }
 
@@ -385,7 +388,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-dark-navy-blue);
-  display: flex;
 }
 
 .main-text {
@@ -393,5 +395,4 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text-slate);
-  display: flex;
 }
