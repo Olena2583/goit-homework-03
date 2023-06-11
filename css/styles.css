@@ -184,7 +184,7 @@ img {
 
 /*------------- section two index ---------*/
 .visually-hidden {
-  overflow: hidden;
+  display: none;
 }
 
 .main-section-two {
