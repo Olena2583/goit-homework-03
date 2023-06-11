@@ -321,7 +321,6 @@ img {
   display: block;
   margin: 0 auto;
   padding: 100px 0;
-  display: inline-block;
 }
 
 .footer-logo {
@@ -334,6 +333,7 @@ img {
   text-transform: uppercase;
   color: var(--color-primary-rand-iris);
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-footer {
