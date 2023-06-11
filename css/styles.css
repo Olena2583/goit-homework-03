@@ -181,6 +181,10 @@ img {
 }
 
 /*------------- section two index ---------*/
+.visually-hidden {
+  overflow: hidden;
+}
+
 .main-section-two {
   padding: 120px 0;
 }
