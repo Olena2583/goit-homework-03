@@ -346,6 +346,7 @@ img {
 
 .logo {
   color: var(--color-light-cloud);
+  display: inline-block;
 }
 .footer-text {
   font-style: normal;
