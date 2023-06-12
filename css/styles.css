@@ -336,7 +336,7 @@ img {
   text-transform: uppercase;
   color: var(--color-primary-rand-iris);
   margin-bottom: 16px;
-  display: inline-block;
+  display: block;
 }
 
 .logo-footer {
