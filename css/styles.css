@@ -85,7 +85,6 @@ img {
 }
 .novigation {
   display: flex;
-  display: flex;
   align-items: center;
 }
 
@@ -103,7 +102,6 @@ img {
 
 .logo-studio {
   color: var(--color-dark-navy-blue);
-  margin-right: 76px;
 }
 
 .header-menu {
