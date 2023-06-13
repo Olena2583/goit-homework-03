@@ -98,11 +98,11 @@ img {
   text-transform: uppercase;
   color: var(--color-primary-rand-iris);
   display: block;
+  margin-right: 76px;
 }
 
 .logo-studio {
   color: var(--color-dark-navy-blue);
-  margin-right: 76px;
 }
 
 .header-menu {
