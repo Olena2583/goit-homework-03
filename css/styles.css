@@ -102,6 +102,7 @@ img {
 
 .logo-studio {
   color: var(--color-dark-navy-blue);
+  margin-right: 76px;
 }
 
 .header-menu {
