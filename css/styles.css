@@ -330,9 +330,6 @@ img {
   display: inline-block;
 }
 
-.logo-footer {
-}
-
 .logo {
   color: var(--color-light-cloud);
 }
@@ -359,9 +356,6 @@ img {
   gap: 24px;
   justify-content: center;
   margin-bottom: 72px;
-}
-
-.menu-target {
 }
 
 .item {
